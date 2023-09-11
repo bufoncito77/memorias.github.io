@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+  color: #333;
+  background-color: #f9f8f6;
+  background-image: url('images/header2.png');
+  background-position: center;
+  font-family: Georgia, Times, serif;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 20px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Evita que los bordes redondeados se vean cortados por contenido flotante */
+}
+
+/* Encabezado */
+header {
+  background-image: url("images/header2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160px;
+}
+
+h1 {
+  text-indent: -9999px;
+  width: 100%;
+  height: 130px;
+  margin: 0;
+}
+
+/* Navegación y Pie de página */
+nav,
+footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+  margin: 0;
+  padding: 5px 0 5px 30px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav li a:hover,
+nav li a.current {
+  color: #000000;
+}
+
+/* Contenido principal */
+section.courses {
+  float: left;
+  width: 75%; /* Utiliza porcentaje para que sea responsive */
+  border-right: 1px solid #eeeeee;
+  padding: 20px;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+hgroup {
+  margin-top: 40px;
+}
+
+/* Imágenes */
+figure {
+  float: left;
+  width: 45%; /* Utiliza porcentaje para que sea responsive */
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Evita que las sombras se extiendan más allá del elemento */
+}
+
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+
+/* Barra lateral */
+aside {
+  width: 25%; /* Utiliza porcentaje para que sea responsive */
+  float: right;
+  padding: 0 20px 0 0;
+}
+
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+/* Enlaces */
+a {
+  color: #0088cc; /* Cambiado a azul */
+  text-decoration: none;
+}
+
+/* Títulos */
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
+h2 {
+  margin: 10px 0 5px 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  color: #0088cc; /* Cambiado a azul */
+}
+
+aside h2 {
+  padding: 30px 0 10px 0;
+  color: #0088cc; /* Cambiado a azul */
+}
+
+/* Pie de página */
+footer {
+  font-size: 80%;
+  padding: 7px 20px 0 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
